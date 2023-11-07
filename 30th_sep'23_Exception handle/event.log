@@ -1,0 +1,8 @@
+INFO:root:the info message
+DEBUG:root:the debug
+ERROR:root:the error one
+CRITICAL:root:the critical
+WARNING:root:the warning
+INFO:root:taking age input
+INFO:root:age input take as 45
+INFO:root:Valid User

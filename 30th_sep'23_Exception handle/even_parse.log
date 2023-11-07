@@ -1,0 +1,22 @@
+2023-11-07 15:34:28,857- INFO - [4, 5, 6, 7, 8, 9, 0]
+2023-11-07 15:34:45,437- INFO - [4, 5, 6, 7, 8, 9, 0]
+2023-11-07 15:34:49,901- INFO - [4, 5, 6, 7, 8, 9, 0]
+2023-11-07 15:34:49,902- INFO - inside try block
+2023-11-07 15:34:49,902- INFO - inside for loop i = 4
+2023-11-07 15:34:49,902- INFO - checking the valur of i 
+2023-11-07 15:34:49,902- INFO - appending the value i = 4
+2023-11-07 15:34:49,902- INFO - inside for loop i = 5
+2023-11-07 15:34:49,902- INFO - inside for loop i = 6
+2023-11-07 15:34:49,902- INFO - checking the valur of i 
+2023-11-07 15:34:49,902- INFO - appending the value i = 6
+2023-11-07 15:34:49,903- INFO - inside for loop i = 7
+2023-11-07 15:34:49,905- INFO - inside for loop i = 8
+2023-11-07 15:34:49,905- INFO - checking the valur of i 
+2023-11-07 15:34:49,905- INFO - appending the value i = 8
+2023-11-07 15:34:49,905- INFO - inside for loop i = 9
+2023-11-07 15:34:49,905- INFO - inside for loop i = 0
+2023-11-07 15:34:49,905- INFO - checking the valur of i 
+2023-11-07 15:34:49,905- INFO - appending the value i = 0
+2023-11-07 15:35:21,411- INFO - taking age input
+2023-11-07 15:35:25,747- INFO - age input taken is = 31
+2023-11-07 15:35:25,747- INFO - Valid User

@@ -1,0 +1,41 @@
+INFO:root:taking age input
+INFO:root:age input take as 45
+INFO:root:Valid User
+2023-11-07 15:12:12,527
+2023-11-07 15:12:14,597
+2023-11-07 15:12:14,597
+2023-11-07 15:15:57,547
+2023-11-07 15:16:00,612
+2023-11-07 15:16:00,612
+2023-11-07 15:16:38,540 : taking age input
+2023-11-07 15:16:41,020 : age input taken as 45
+2023-11-07 15:16:41,020 : Valid User
+2023-11-07 15:16:43,184 : taking age input
+2023-11-07 15:16:48,850 : age input taken as 29
+2023-11-07 15:16:48,850 : Valid User
+2023-11-07 15:17:09,335 : taking age input
+2023-11-07 15:17:12,135 : age input taken as -32
+2023-11-07 15:17:12,135 : Checking condition
+2023-11-07 15:17:12,135 : Entered value is in negative, Which is not valid
+2023-11-07 15:18:50,415 : taking age input
+2023-11-07 15:18:55,945 : age input taken is = -45
+2023-11-07 15:18:55,945 : Checking negative condition
+2023-11-07 15:18:55,945 : Entered value is in negative, Which is not valid
+2023-11-07 15:23:17,830 : taking age input
+2023-11-07 15:23:21,885 : age input taken is = 43
+2023-11-07 15:23:21,885 : Valid User
+2023-11-07 15:23:57,741 : taking age input
+2023-11-07 15:24:00,043 : age input taken is = 43
+2023-11-07 15:24:00,043 : Valid User
+2023-11-07 15:24:40,045 : taking age input
+2023-11-07 15:24:43,049 : age input taken is = 23
+2023-11-07 15:24:43,049 : Valid User
+2023-11-07 15:26:00,307 : taking age input
+2023-11-07 15:26:02,793 : age input taken is = 24
+2023-11-07 15:26:02,793 : Valid User
+2023-11-07 15:26:24,158 : INFO : taking age input
+2023-11-07 15:26:27,305 : INFO : age input taken is = 34
+2023-11-07 15:26:27,305 : INFO : Valid User
+2023-11-07 15:36:05,066 : INFO : taking age input
+2023-11-07 15:36:24,425 : INFO : age input taken is = 31
+2023-11-07 15:36:24,425 : INFO : Valid User

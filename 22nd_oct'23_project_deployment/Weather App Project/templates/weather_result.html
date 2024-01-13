@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Results</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: url("https://img.freepik.com/free-photo/mesmerizing-view-fresh-green-fields-cloudy-sky_181624-49447.jpg?w=740&t=st=1703698630~exp=1703699230~hmac=f1d42c400968efd231dac2258833e7624690a98132f4fce2612404f378bfde26"); /* Replace with a subtle background image */
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #87CEEB;
+    }
+    .temperature {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }    
+
+    .main {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .weather-details {
+      margin-top: 20px;
+      text-align: center;
+    }    
+
+    .pressure {
+      font-size: 20px;
+    }
+
+    .humidity {
+      font-size: 20px;
+    }
+
+    /* Additional styling for a polished look */
+
+    .form {
+      max-width: 500px; /* Constrain form width (if applicable) */
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        padding: 15px;
+      }
+
+      .weather-details {
+        font-size: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Weather in {{ weather_data['name'] }}</h1>
+
+    <div class="weather-details">
+      <strong><label for="Weather Condition">Weather Condition:</label> </strong>
+      <p class="main">{{ weather_data['weather'][0]['main'] }}</p>
+      <strong><label for="Temperature">Temperature:</label></strong>
+      <p class="temperature">{{ weather_data['main']['temp'] }}</p>
+      <strong><label for="humidity">Humidity:</label></strong>
+      <p class="humidity">{{ weather_data['main']['humidity'] }}</p>
+      <strong><label for="pressure">Pressure:</label></strong>
+      <p class="pressure">{{ weather_data['main']['pressure'] }}</p>
+    </div>
+  </div>
+</body>
+</html>

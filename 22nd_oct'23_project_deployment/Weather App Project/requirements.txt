@@ -1,0 +1,3 @@
+Flask
+gunicorn # this is for cloud environment as i am using cloud system.
+requests
